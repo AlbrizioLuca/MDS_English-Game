@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Gluten:wght@300&display=swap");
+
+body {
+  background-color: black;
+  color: whitesmoke;
+  font-family: "Gluten", sans-serif;
+}
+
+/** -------------------------------------------------------------------------- */
+/**                                  home page                                 */
+/** -------------------------------------------------------------------------- */
+
+.question-selector {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.welcome img {
+  width: 60vw;
+  margin: 3rem 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.selectQuestion {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 25px;
+  margin-left: auto;
+  color: black;
+  background-color: whitesmoke;
+  font-size: 1.5em;
+  font-weight: bold;
+  width: 40vw;
+  height: 15vh;
+  padding: 2%;
+}
+
+.dropdown {
+  margin: 5% auto;
+  font-size: 20px;
+  background-color: inherit;
+  font-family: "Gluten", sans-serif;
+  font-weight: bold;
+}
+
+.go {
+  margin: 5%;
+  color: black;
+  background-color: whitesmoke;
+  border-radius: 50%;
+  font-size: x-large;
+  font-weight: bold;
+  width: 100px;
+  height: 100px;
+}
+
+/** -------------------------------------------------------------------------- */
+/**                                question page                               */
+/** -------------------------------------------------------------------------- */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.logo {
+  max-width: 70vw;
+  margin: 5% 5% 0 auto;
+}
+
+a {
+  margin: 5% 0 0 5%;
+  color: #61dafb;
+}
+
+.selectedQuestion {
+  display: flex;
+  align-items: center;
+  border-radius: 25px;
+  margin: 5% 5% 0% auto;
+  color: black;
+  background-color: whitesmoke;
+  font-size: 1.5em;
+  font-weight: bold;
+  width: 65vw;
+  height: 10vh;
+  padding: 5%;
+}
+
+.responses {
+  margin: 5% 5% 0% 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.choice,
+.validation {
+  height: 10vh;
+  font-family: "Gluten", sans-serif;
+  border-radius: 25px;
+  margin: 0 5%;
+  color: black;
+  background-color: whitesmoke;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.validation {
+  height: 5vh;
+  margin: 2% 0 0 5%;
+  font-size: 1em;
+}
+.message {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 2% 10%;
+}
+
+.good-response {
+  color: green;
+}
+
+.bad-response {
+  color: red;
+}
